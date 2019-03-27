@@ -1,3 +1,9 @@
+PATH
+  remote: engines/admin
+  specs:
+    admin (0.1.0)
+      rails (~> 5.2.2, >= 5.2.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,6 +200,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  admin!
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
